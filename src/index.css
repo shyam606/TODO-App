@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+    /* Style the scrollbar track */
+    ::-webkit-scrollbar-track {
+        background-color: rgb(218, 218, 218);
+    }
+
+    /* Style the scrollbar thumb */
+    ::-webkit-scrollbar-thumb {
+        background-color: gray;
+        border-radius: 2px;
+    }
+
+    /* Set the width of the scrollbar */
+    ::-webkit-scrollbar {
+        width: 4px;
+        height: 8px;
+    }
+}
+
+@layer components {
+    .modal_input {
+        @apply mb-3 outline-none bg-gray-200 w-full h-10 rounded-md p-2
+    }
+}
