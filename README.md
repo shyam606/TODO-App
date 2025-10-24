@@ -1,3 +1,7 @@
+For run the App use 
+# npm i or npm i -f (if got any package error)
+# npm run dev
+
 Todo App with Redux & Dynamic Filters
 Overview
 
