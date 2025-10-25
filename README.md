@@ -2,6 +2,8 @@ For run the App use
 # npm i or npm i -f (if got any package error)
 # npm run dev
 
+LIVE LINK - https://todo-app-delta-roan.vercel.app/
+
 #working
 1. Type anything in the input and press Enter to add
 2. Two todo items are added by default; you can drag and drop them
